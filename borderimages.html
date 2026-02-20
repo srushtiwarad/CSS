@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#box1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(border.png);
+  border-image-slice: 30;
+}
+
+#box2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+</style>
+</head>
+<body>
+
+<div id="box1">Individual properties</div><br>
+<div id="box2">Shorthand with round</div>
+
+</body>
+</html>
