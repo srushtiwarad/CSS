@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,3 +27,33 @@ div:hover {
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@property --myColor {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: red;
+}
+
+div {
+  background-color: var(--myColor);
+  padding: 20px;
+  color: white;
+  transition: --myColor 1s;
+}
+
+div:hover {
+  --myColor: blue;
+}
+</style>
+</head>
+<body>
+
+<div>Hover me — the color transitions smoothly because @property defines the type!</div>
+
+</body>
+</html>
+>>>>>>> 06ecad1fff6bd5d1661f1a377e3ce7a49d1459ac
