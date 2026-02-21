@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:root {
+  --primary: #04AA6D;
+  --text: white;
+}
+
+.header {
+  padding: 15px;
+  background-color: var(--primary);
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--text);
+}
+</style>
+</head>
+<body>
+
+<div class="header">My Website</div>
+<p><button class="btn">Click Me</button></p>
+
+</body>
+</html>

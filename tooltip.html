@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltiptext {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+</head>
+<body>
+
+<p>Hover over the word <span class="tooltip">here<span class="tooltiptext">I am a tooltip!</span></span> to see the tooltip.</p>
+
+</body>
+</html>
